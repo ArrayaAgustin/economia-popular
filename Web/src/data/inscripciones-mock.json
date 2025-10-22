@@ -1,0 +1,375 @@
+{
+  "inscripciones": [
+    {
+      "id": 1,
+      "estado": "APROBADO",
+      "fechaInscripcion": "2025-06-10T15:30:45",
+      "datosPersonales": {
+        "cuil": "20-35789456-7",
+        "nombre": "Juan Carlos",
+        "apellido": "Rodríguez",
+        "fechaNacimiento": "1990-05-15",
+        "genero": "Masculino",
+        "nacionalidad": "Argentina",
+        "estadoCivil": "Soltero/a",
+        "nivelEducativo": "Secundario completo",
+        "domicilio": {
+          "calle": "Av. Colón",
+          "numero": "1250",
+          "codigoPostal": "5000",
+          "departamento": "Capital",
+          "localidad": "Córdoba"
+        },
+        "telefono": "3512345678",
+        "email": "juancarlos@ejemplo.com"
+      },
+      "datosGenerales": {
+        "trabajosEconomiaSocial": "Dos",
+        "tieneTrabajoDependencia": "No",
+        "salarioTrabajoDependencia": "",
+        "trabajoDependenciaPrincipal": ""
+      },
+      "trabajoPrincipal": {
+        "formaTrabajoPrincipal": "Individual",
+        "actividadPrincipal": "Agricultura",
+        "lugarTrabajoPrincipal": "En un local / oficina / establecimiento / negocio / taller / chacra / finca",
+        "monotributoTrabajoPrincipal": "Si",
+        "ingresoMensualTrabajoPrincipal": "Igual o mayor al Salario Mínimo Vital y Móvil",
+        "constanciaIngreso": "Factura (u otro comprobante del monotributo)",
+        "usaMediosElectronicos": "Si",
+        "tipoAplicaciones": [
+          "Aplicaciones de cobro (mercado pago, transferencias bancarias, otras)",
+          "Redes sociales para promocionar/vender tu producto o servicio (Whatsapp, Instagram; Facebook, marketplace, TikTok,otras)"
+        ],
+        "estrategiasPublicidad": [
+          "De boca en boca",
+          "Publicidad digital no paga (posteos en redes, fotos y videos de los productos, flyers digitales, etc.)"
+        ]
+      },
+      "emprendimiento": {
+        "emprendimientoCalle": "Av. Colón",
+        "emprendimientoNumero": "1250",
+        "emprendimientoCodigoPostal": "5000",
+        "emprendimientoDepartamento": "Capital",
+        "emprendimientoLocalidad": "Córdoba",
+        "emprendimientoTieneNombre": "Si",
+        "emprendimientoNombre": "Huerta Orgánica El Sol",
+        "emprendimientoTiempoFuncionamiento": "Entre 1 y 3 años",
+        "emprendimientoMarcoOrganizacion": "No"
+      },
+      "segundoTrabajo": {
+        "formaTrabajoSegundo": "En un emprendimiento familiar",
+        "actividadSegundoTrabajo": "Actor/Actriz/Músicos/Artistas plásticos",
+        "lugarTrabajoSegundo": "En vivienda propia o en la de algún otro integrante del emprendimiento",
+        "monotributoTrabajoSegundo": "No",
+        "ingresoMensualTrabajoSegundo": "Menor al Salario Mínimo Vital y Móvil",
+        "suficienciaIngresoSegundo": "Insuficiente, tengo otras fuentes de ingreso",
+        "usaMediosElectronicosSegundo": "Si",
+        "tipoAplicacionesSegundo": [
+          "Redes sociales para promocionar/vender tu producto o servicio (Whatsapp, Instagram; Facebook, marketplace, TikTok,otras)"
+        ],
+        "estrategiasPublicidadSegundo": [
+          "De boca en boca",
+          "Recursos impresos (folleteria, imanes, revista de barrio, calcomanías, etc.)"
+        ]
+      },
+      "segundoEmprendimiento": {
+        "segundoEmprendimientoCalle": "Av. Patria",
+        "segundoEmprendimientoNumero": "750",
+        "segundoEmprendimientoCodigoPostal": "5000",
+        "segundoEmprendimientoDepartamento": "Capital",
+        "segundoEmprendimientoLocalidad": "Córdoba",
+        "segundoEmprendimientoTieneNombre": "Si",
+        "segundoEmprendimientoNombre": "Música en Casa",
+        "segundoEmprendimientoTiempoFuncionamiento": "Menos de 1 año",
+        "segundoEmprendimientoMarcoOrganizacion": "No"
+      }
+    },
+    {
+      "id": 2,
+      "estado": "RECHAZADO",
+      "fechaInscripcion": "2025-06-12T10:15:22",
+      "datosPersonales": {
+        "cuil": "27-28456789-3",
+        "nombre": "María Laura",
+        "apellido": "González",
+        "fechaNacimiento": "1985-11-23",
+        "genero": "Femenino",
+        "nacionalidad": "Argentina",
+        "estadoCivil": "Casado/a",
+        "nivelEducativo": "Terciario completo",
+        "domicilio": {
+          "calle": "Duarte Quirós",
+          "numero": "2580",
+          "codigoPostal": "5003",
+          "departamento": "Capital",
+          "localidad": "Córdoba"
+        },
+        "telefono": "3516789012",
+        "email": "marialaura@ejemplo.com"
+      },
+      "datosGenerales": {
+        "trabajosEconomiaSocial": "Uno",
+        "tieneTrabajoDependencia": "Si",
+        "salarioTrabajoDependencia": "Igual o mayor al Salario Mínimo Vital y Móvil",
+        "trabajoDependenciaPrincipal": "Si"
+      },
+      "trabajoPrincipal": {
+        "formaTrabajoPrincipal": "En un emprendimiento asociativo/comunitario social (no familiar)",
+        "actividadPrincipal": "Otros",
+        "otraActividadPrincipal": "Diseño gráfico y comunicación visual",
+        "lugarTrabajoPrincipal": "En vivienda propia o en la de algún otro integrante del emprendimiento",
+        "monotributoTrabajoPrincipal": "Si",
+        "ingresoMensualTrabajoPrincipal": "Menor al Salario Mínimo Vital y Móvil",
+        "suficienciaIngreso": "Insuficiente, tengo otras fuentes de ingreso",
+        "usaMediosElectronicos": "Si",
+        "tipoAplicaciones": [
+          "Aplicaciones de cobro (mercado pago, transferencias bancarias, otras)",
+          "Redes sociales para promocionar/vender tu producto o servicio (Whatsapp, Instagram; Facebook, marketplace, TikTok,otras)",
+          "Página web propia"
+        ],
+        "estrategiasPublicidad": [
+          "De boca en boca",
+          "Publicidad digital no paga (posteos en redes, fotos y videos de los productos, flyers digitales, etc.)",
+          "Publicidad digital paga (promoción en instagram, anuncios patrocinados en la web, etc.)"
+        ]
+      },
+      "emprendimiento": {
+        "emprendimientoCalle": "Duarte Quirós",
+        "emprendimientoNumero": "2580",
+        "emprendimientoCodigoPostal": "5003",
+        "emprendimientoDepartamento": "Capital",
+        "emprendimientoLocalidad": "Córdoba",
+        "emprendimientoTieneNombre": "Si",
+        "emprendimientoNombre": "Diseño Social",
+        "emprendimientoTiempoFuncionamiento": "Entre 3 y 5 años",
+        "emprendimientoMarcoOrganizacion": "Si",
+        "emprendimientoNombreOrganizacion": "Cooperativa de Diseñadores Unidos"
+      }
+    },
+    {
+      "id": 3,
+      "estado": "NUEVO",
+      "fechaInscripcion": "2025-06-15T09:45:12",
+      "datosPersonales": {
+        "cuil": "20-40123456-9",
+        "nombre": "Pedro Alejandro",
+        "apellido": "Martínez",
+        "fechaNacimiento": "1997-03-08",
+        "genero": "Masculino",
+        "nacionalidad": "Argentina",
+        "estadoCivil": "Soltero/a",
+        "nivelEducativo": "Universitario incompleto",
+        "domicilio": {
+          "calle": "Av. Rafael Núñez",
+          "numero": "4850",
+          "codigoPostal": "5009",
+          "departamento": "Capital",
+          "localidad": "Córdoba"
+        },
+        "telefono": "3515678901",
+        "email": "pedroalejandro@ejemplo.com"
+      },
+      "datosGenerales": {
+        "trabajosEconomiaSocial": "Tres",
+        "tieneTrabajoDependencia": "No",
+        "salarioTrabajoDependencia": "",
+        "trabajoDependenciaPrincipal": ""
+      },
+      "trabajoPrincipal": {
+        "formaTrabajoPrincipal": "Individual",
+        "actividadPrincipal": "Acompañamiento de reinserción de liberados/as y recuperados/as",
+        "lugarTrabajoPrincipal": "En el domicilio del cliente",
+        "monotributoTrabajoPrincipal": "No",
+        "ingresoMensualTrabajoPrincipal": "Menor al Salario Mínimo Vital y Móvil",
+        "suficienciaIngreso": "Insuficiente, estoy buscando otras fuentes de ingresos",
+        "usaMediosElectronicos": "Si",
+        "tipoAplicaciones": [
+          "Aplicaciones de cobro (mercado pago, transferencias bancarias, otras)",
+          "Redes sociales para promocionar/vender tu producto o servicio (Whatsapp, Instagram; Facebook, marketplace, TikTok,otras)"
+        ],
+        "estrategiasPublicidad": [
+          "De boca en boca"
+        ]
+      },
+      "emprendimiento": {
+        "emprendimientoCalle": "Av. Rafael Núñez",
+        "emprendimientoNumero": "4850",
+        "emprendimientoCodigoPostal": "5009",
+        "emprendimientoDepartamento": "Capital",
+        "emprendimientoLocalidad": "Córdoba",
+        "emprendimientoTieneNombre": "No",
+        "emprendimientoTiempoFuncionamiento": "Menos de 1 año",
+        "emprendimientoMarcoOrganizacion": "Si",
+        "emprendimientoNombreOrganizacion": "Asociación Civil Nuevo Camino"
+      },
+      "segundoTrabajo": {
+        "formaTrabajoSegundo": "Individual",
+        "actividadSegundoTrabajo": "Otros",
+        "otraActividadSegundoTrabajo": "Reparación de computadoras",
+        "lugarTrabajoSegundo": "En vivienda propia o en la de algún otro integrante del emprendimiento",
+        "monotributoTrabajoSegundo": "No",
+        "ingresoMensualTrabajoSegundo": "Menor al Salario Mínimo Vital y Móvil",
+        "suficienciaIngresoSegundo": "Suficiente, pero preciso complementar con otras fuentes de ingreso",
+        "usaMediosElectronicosSegundo": "Si",
+        "tipoAplicacionesSegundo": [
+          "Redes sociales para promocionar/vender tu producto o servicio (Whatsapp, Instagram; Facebook, marketplace, TikTok,otras)"
+        ],
+        "estrategiasPublicidadSegundo": [
+          "De boca en boca",
+          "Publicidad digital no paga (posteos en redes, fotos y videos de los productos, flyers digitales, etc.)"
+        ]
+      },
+      "segundoEmprendimiento": {
+        "segundoEmprendimientoCalle": "Av. Rafael Núñez",
+        "segundoEmprendimientoNumero": "4850",
+        "segundoEmprendimientoCodigoPostal": "5009",
+        "segundoEmprendimientoDepartamento": "Capital",
+        "segundoEmprendimientoLocalidad": "Córdoba",
+        "segundoEmprendimientoTieneNombre": "Si",
+        "segundoEmprendimientoNombre": "TecnoSoluciones",
+        "segundoEmprendimientoTiempoFuncionamiento": "Entre 1 y 3 años",
+        "segundoEmprendimientoMarcoOrganizacion": "No"
+      }
+    },
+    {
+      "id": 4,
+      "estado": "ESPERANDO ACTUALIZACION",
+      "fechaInscripcion": "2025-06-18T14:20:33",
+      "datosPersonales": {
+        "cuil": "27-32567890-1",
+        "nombre": "Ana Carolina",
+        "apellido": "López",
+        "fechaNacimiento": "1988-07-12",
+        "genero": "Femenino",
+        "nacionalidad": "Argentina",
+        "estadoCivil": "Divorciado/a",
+        "nivelEducativo": "Universitario completo",
+        "domicilio": {
+          "calle": "Av. Fuerza Aérea",
+          "numero": "1890",
+          "codigoPostal": "5010",
+          "departamento": "Capital",
+          "localidad": "Córdoba"
+        },
+        "telefono": "3514567890",
+        "email": "anacarolina@ejemplo.com"
+      },
+      "datosGenerales": {
+        "trabajosEconomiaSocial": "Cuatro o mas",
+        "tieneTrabajoDependencia": "No",
+        "salarioTrabajoDependencia": "",
+        "trabajoDependenciaPrincipal": ""
+      },
+      "trabajoPrincipal": {
+        "formaTrabajoPrincipal": "En un emprendimiento familiar",
+        "actividadPrincipal": "Acuicultura",
+        "lugarTrabajoPrincipal": "En un local / oficina / establecimiento / negocio / taller / chacra / finca",
+        "monotributoTrabajoPrincipal": "Si",
+        "ingresoMensualTrabajoPrincipal": "Igual o mayor al Salario Mínimo Vital y Móvil",
+        "constanciaIngreso": "Factura (u otro comprobante del monotributo)",
+        "usaMediosElectronicos": "Si",
+        "tipoAplicaciones": [
+          "Aplicaciones de cobro (mercado pago, transferencias bancarias, otras)",
+          "Redes sociales para promocionar/vender tu producto o servicio (Whatsapp, Instagram; Facebook, marketplace, TikTok,otras)",
+          "Página web propia"
+        ],
+        "estrategiasPublicidad": [
+          "De boca en boca",
+          "Recursos impresos (folleteria, imanes, revista de barrio, calcomanías, etc.)",
+          "Publicidad digital no paga (posteos en redes, fotos y videos de los productos, flyers digitales, etc.)",
+          "Publicidad digital paga (promoción en instagram, anuncios patrocinados en la web, etc.)"
+        ]
+      },
+      "emprendimiento": {
+        "emprendimientoCalle": "Ruta Provincial 5",
+        "emprendimientoNumero": "Km 15",
+        "emprendimientoCodigoPostal": "5101",
+        "emprendimientoDepartamento": "Santa María",
+        "emprendimientoLocalidad": "Alta Gracia",
+        "emprendimientoTieneNombre": "Si",
+        "emprendimientoNombre": "Peces del Valle",
+        "emprendimientoTiempoFuncionamiento": "Más de 5 años",
+        "emprendimientoMarcoOrganizacion": "No"
+      },
+      "segundoTrabajo": {
+        "formaTrabajoSegundo": "Individual",
+        "actividadSegundoTrabajo": "Agricultura",
+        "lugarTrabajoSegundo": "En un local / oficina / establecimiento / negocio / taller / chacra / finca",
+        "monotributoTrabajoSegundo": "Si",
+        "ingresoMensualTrabajoSegundo": "Menor al Salario Mínimo Vital y Móvil",
+        "suficienciaIngresoSegundo": "Suficiente, pero preciso complementar con otras fuentes de ingreso",
+        "usaMediosElectronicosSegundo": "Si",
+        "tipoAplicacionesSegundo": [
+          "Aplicaciones de cobro (mercado pago, transferencias bancarias, otras)",
+          "Redes sociales para promocionar/vender tu producto o servicio (Whatsapp, Instagram; Facebook, marketplace, TikTok,otras)"
+        ],
+        "estrategiasPublicidadSegundo": [
+          "De boca en boca",
+          "Publicidad digital no paga (posteos en redes, fotos y videos de los productos, flyers digitales, etc.)"
+        ]
+      },
+      "segundoEmprendimiento": {
+        "segundoEmprendimientoCalle": "Ruta Provincial 5",
+        "segundoEmprendimientoNumero": "Km 15",
+        "segundoEmprendimientoCodigoPostal": "5101",
+        "segundoEmprendimientoDepartamento": "Santa María",
+        "segundoEmprendimientoLocalidad": "Alta Gracia",
+        "segundoEmprendimientoTieneNombre": "Si",
+        "segundoEmprendimientoNombre": "Huerta Orgánica Familiar",
+        "segundoEmprendimientoTiempoFuncionamiento": "Entre 3 y 5 años",
+        "segundoEmprendimientoMarcoOrganizacion": "No"
+      }
+    },
+    {
+      "id": 5,
+      "estado": "NUEVO",
+      "fechaInscripcion": "2025-06-20T11:05:18",
+      "datosPersonales": {
+        "cuil": "20-25678901-2",
+        "nombre": "Roberto Carlos",
+        "apellido": "Fernández",
+        "fechaNacimiento": "1978-09-30",
+        "genero": "Masculino",
+        "nacionalidad": "Argentina",
+        "estadoCivil": "Casado/a",
+        "nivelEducativo": "Primario completo",
+        "domicilio": {
+          "calle": "Av. Vélez Sarsfield",
+          "numero": "3450",
+          "codigoPostal": "5016",
+          "departamento": "Capital",
+          "localidad": "Córdoba"
+        },
+        "telefono": "3513456789",
+        "email": "robertocarlos@ejemplo.com"
+      },
+      "datosGenerales": {
+        "trabajosEconomiaSocial": "Uno",
+        "tieneTrabajoDependencia": "No",
+        "salarioTrabajoDependencia": "",
+        "trabajoDependenciaPrincipal": ""
+      },
+      "trabajoPrincipal": {
+        "formaTrabajoPrincipal": "Individual",
+        "actividadPrincipal": "Otros",
+        "otraActividadPrincipal": "Albañilería y construcción",
+        "lugarTrabajoPrincipal": "En obras en construcción, de infraestructura, minería o similares",
+        "monotributoTrabajoPrincipal": "No",
+        "ingresoMensualTrabajoPrincipal": "Menor al Salario Mínimo Vital y Móvil",
+        "suficienciaIngreso": "Insuficiente, estoy buscando otras fuentes de ingresos",
+        "usaMediosElectronicos": "No"
+      },
+      "emprendimiento": {
+        "emprendimientoCalle": "ambulante",
+        "emprendimientoNumero": "s/n",
+        "emprendimientoCodigoPostal": "5016",
+        "emprendimientoDepartamento": "Capital",
+        "emprendimientoLocalidad": "Córdoba",
+        "emprendimientoTieneNombre": "No",
+        "emprendimientoTiempoFuncionamiento": "Entre 1 y 3 años",
+        "emprendimientoMarcoOrganizacion": "No"
+      }
+    }
+  ]
+}

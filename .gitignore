@@ -1,0 +1,99 @@
+# ----------------------------
+# Node.js & Frontend tooling
+# ----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# Yarn Berry
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Build outputs
+/build/
+/dist/
+.out/
+.next/
+.nuxt/
+Web/out/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Caches
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# Coverage
+coverage/
+.nyc_output/
+__tests__/coverage/
+.coverage
+html-report/
+test-results.xml
+
+# Logs
+logs/
+*.log
+
+# ----------------------------
+# Visual Studio / .NET
+# ----------------------------
+.vs/
+*.user
+*.suo
+*.cache
+*.db
+*.pdb
+*.dll
+*.exe
+*.vsidx
+*.vssscc
+*.vsscc
+*.csproj.user
+
+# .NET build artifacts
+bin/
+obj/
+Api/bin/
+Api/obj/
+
+# ----------------------------
+# Certificados locales
+# ----------------------------
+Web/certificates/
+*.pem
+*.crt
+*.key
+
+# ----------------------------
+# IDEs y otros
+# ----------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sw?
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Webpack / Hot updates
+# ----------------------------
+*.hot-update.js
+*.hot-update.json
+*.pack.gz
