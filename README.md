@@ -222,7 +222,7 @@ flowchart TD
     Api[Backend .NET 8]
     DB[(DB MySQL/Oracle)]
     CiDi[API CiDi Gobierno]
-    Cache[Cache/Session (Redis)]
+    Cache[Cache/Session Redis]
 
     User -->|Login| Web
     Web -->|Token CiDi| Api
