@@ -1,0 +1,33 @@
+erDiagram
+    %% Estructura de tablas ECO_POPULAR (Mermaid ER)
+    T_ROLES {
+      NUMBER ID_ROL PK "ID_ROL NUMBER(22) NOT NULL"
+      VARCHAR ROL "ROL VARCHAR2(255) NOT NULL"
+      DATE FECHA_CREACION "FECHA_CREACION DATE NULL"
+      DATE FECHA_BAJA "FECHA_BAJA DATE NULL"
+      CHAR ACTIVO "ACTIVO CHAR(1) NULL"
+    }
+
+    T_USUARIOS {
+      NUMBER ID_USUARIO PK "ID_USUARIO NUMBER(22) NOT NULL"
+      VARCHAR CUIL "CUIL VARCHAR2(11) NOT NULL (UNIQUE)"
+      DATE FECHA_CREACION "FECHA_CREACION DATE NULL"
+      DATE FECHA_BAJA "FECHA_BAJA DATE NULL"
+      CHAR ACTIVO "ACTIVO CHAR(1) NULL"
+      NUMBER ID_ROL FK "ID_ROL NUMBER(22) NULL -> T_ROLES.ID_ROL"
+    }
+
+    T_REFRESH_TOKENS {
+      NUMBER ID PK "ID NUMBER(22) NOT NULL"
+      VARCHAR CUIL "CUIL VARCHAR2(11) NOT NULL (legacy)"
+      VARCHAR REFRESH_TOKEN "REFRESH_TOKEN VARCHAR2(255) NOT NULL (recom. hash)"
+      DATE EXPIRATION "EXPIRATION DATE NOT NULL"
+      NUMBER ID_USUARIO FK "ID_USUARIO NUMBER(22) NULL (recommend FK to T_USUARIOS)"
+    }
+
+    %% Relaciones
+    T_ROLES ||--o{ T_USUARIOS : "1..n (usuarios por rol)"
+    T_USUARIOS ||--o{ T_REFRESH_TOKENS : "1..n (tokens por usuario, recomendado via ID_USUARIO)"
+
+    %% Nota: actualmente T_REFRESH_TOKENS puede usar CUIL para mapping (legacy).
+    %% Recomendación: usar ID_USUARIO y FK a T_USUARIOS para integridad referencial.
